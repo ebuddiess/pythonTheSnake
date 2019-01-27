@@ -53,6 +53,11 @@ def info():
 @app.route('/attendance')
 def attendance():
     return c.atten()
+
+@app.route('/')
+def hello():
+    return "welcome TO ERP API"  
+  
         
     
    
